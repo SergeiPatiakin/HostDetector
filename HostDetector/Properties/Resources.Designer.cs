@@ -77,5 +77,15 @@ namespace HostDetector.Properties {
                 return ResourceManager.GetStream("MainSound2", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MeerkatImage {
+            get {
+                object obj = ResourceManager.GetObject("MeerkatImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
