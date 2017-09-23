@@ -54,7 +54,7 @@ namespace HostDetector
             catch {}
             if (mutex == null || !createdNew)
             {
-                MessageBox.Show("HostDetector već radi", "Nije moguće startovati HostDetector", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("HostDetector is already running", "HostDetector could not be started", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Application.Exit();
             }
             else {
